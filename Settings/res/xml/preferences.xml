@@ -56,18 +56,6 @@
             android:targetPackage="com.android.tv.settings" />
     </Preference>
     <Preference
-        android:icon="@drawable/ic_settings_search"
-        android:key="search"
-        android:title="@string/system_search" >
-        <intent android:action="android.search.action.SEARCH_SETTINGS" />
-    </Preference>
-    <Preference
-        android:icon="@drawable/ic_settings_texttospeach"
-        android:key="speech"
-        android:title="@string/system_speech" >
-        <intent android:action="com.google.android.katniss.setting.SPEECH" />
-    </Preference>
-    <Preference
         android:icon="@drawable/ic_settings_inputs"
         android:key="inputs"
         android:title="@string/system_inputs" >

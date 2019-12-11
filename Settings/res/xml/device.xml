@@ -24,12 +24,6 @@
             android:targetPackage="com.android.tv.settings" />
     </Preference>
     <Preference
-        android:icon="@drawable/ic_settings_cast"
-        android:key="cast"
-        android:title="@string/system_cast" >
-        <intent android:action="com.google.android.settings.CAST_RECEIVER_SETTINGS" />
-    </Preference>
-    <Preference
         android:icon="@drawable/ic_settings_sound_on"
         android:key="sound_effects"
         android:title="@string/device_sound_effects" >
