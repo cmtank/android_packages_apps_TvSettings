@@ -100,10 +100,6 @@ public class SecurityActivity extends BaseSettingsActivity implements ActionAdap
                     verifierAction.setEnabled(mVerifierInstalled);
                     mActions.add(verifierAction);
                 }
-                mActions.add(new Action.Builder().key(ACTION_RESTRICTED_PROFILE)
-                        .title(getString(R.string.launcher_restricted_profile_app_name))
-                        .description(RestrictedProfileActivity.getActionDescription(this))
-                        .intent(new Intent(this, RestrictedProfileActivity.class)).build());
                 break;
             case SECURITY_UNKNOWN_SOURCES:
                 mActions.add(ActionBehavior.ON.toAction(ActionBehavior.getOnKey(
